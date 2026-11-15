@@ -1,0 +1,137 @@
+{
+  "dataset": "astronaut_hourly_bp_alerts_v4",
+  "synthetic": true,
+  "source": "csv_simulation",
+  "generator_seed": 20261115,
+  "generated_at": "2026-11-15T16:35:20.252Z",
+  "start": "2026-11-08T16:40:00.000Z",
+  "end": "2026-11-15T16:35:00.000Z",
+  "sampling_minutes": 5,
+  "bp_sampling_minutes": 60,
+  "astronauts": 2,
+  "measurement_records": 22848,
+  "csv_bytes": 1932636,
+  "files": [
+    {
+      "file": "user_table.csv",
+      "table": "user_table",
+      "records": 2,
+      "bytes": 319,
+      "sha256": "a9181ed1e3a549d2c0743f3850f6b0e14f9ef7bce95ebae9c9684228aab62979"
+    },
+    {
+      "file": "mission_table.csv",
+      "table": "mission_table",
+      "records": 1,
+      "bytes": 142,
+      "sha256": "ae432b1a398e2315c9eaea91515334de7a3907b783f9dc930058658b51c6e061"
+    },
+    {
+      "file": "mission_members.csv",
+      "table": "mission_members",
+      "records": 2,
+      "bytes": 35,
+      "sha256": "220dff903a5b892ea49a1c248659db39471cd67bac2f529dd553ba6e2140a596"
+    },
+    {
+      "file": "indicator_table.csv",
+      "table": "indicator_table",
+      "records": 9,
+      "bytes": 478,
+      "sha256": "4286f27f109c19686d1fa8c0fbbbd771b14923a86c4d7f871b1127e4b9fec669"
+    },
+    {
+      "file": "environment_table.csv",
+      "table": "environment_table",
+      "records": 3,
+      "bytes": 465,
+      "sha256": "d16354d2687339b601dfed32f6a11471a5d18d3c1bd381edbff62013f717e367"
+    },
+    {
+      "file": "heart_rate.csv",
+      "table": "measurement_table",
+      "indicator_id": 1,
+      "metric_code": "heart_rate",
+      "records": 4032,
+      "bytes": 325590,
+      "sha256": "bab348ea34a3c02bf60732564de037b56553da2c0db8f73eff95a05aee8931fb"
+    },
+    {
+      "file": "oxygen_concentration.csv",
+      "table": "measurement_table",
+      "indicator_id": 2,
+      "metric_code": "oxygen_concentration",
+      "records": 2016,
+      "bytes": 176374,
+      "sha256": "a4a76b0d432f925d97a373118b6cf2ac2724e536349790525e842ea1fb3269f2"
+    },
+    {
+      "file": "radiation_dose_rate.csv",
+      "table": "measurement_table",
+      "indicator_id": 3,
+      "metric_code": "radiation_dose_rate",
+      "records": 4032,
+      "bytes": 332189,
+      "sha256": "e63cb3047d9e0e351fd9a3dd47137f79480d7546a938ecaaedff10e469eb4652"
+    },
+    {
+      "file": "systolic_bp.csv",
+      "table": "measurement_table",
+      "indicator_id": 4,
+      "metric_code": "systolic_bp",
+      "records": 336,
+      "bytes": 29172,
+      "sha256": "d046ddd46483efeff4215578858004500c4c7a189c49beb3c68a3308dde446bb"
+    },
+    {
+      "file": "diastolic_bp.csv",
+      "table": "measurement_table",
+      "indicator_id": 5,
+      "metric_code": "diastolic_bp",
+      "records": 336,
+      "bytes": 28930,
+      "sha256": "21dca6f0d55d592edd4db2f0033d240410073e937cfb66b824a88f70a7e43029"
+    },
+    {
+      "file": "body_temperature.csv",
+      "table": "measurement_table",
+      "indicator_id": 6,
+      "metric_code": "body_temperature",
+      "records": 4032,
+      "bytes": 359870,
+      "sha256": "9a2e8273293e4803caf781ce1108ee604f46dce7d5c890e565c7ea341136e623"
+    },
+    {
+      "file": "humidity.csv",
+      "table": "measurement_table",
+      "indicator_id": 7,
+      "metric_code": "humidity",
+      "records": 2016,
+      "bytes": 170537,
+      "sha256": "409664a2ae8e80713a0f8b29f393604db6fd71081b60c7eadd6eebb3ebe93702"
+    },
+    {
+      "file": "rmssd.csv",
+      "table": "measurement_table",
+      "indicator_id": 8,
+      "metric_code": "rmssd",
+      "records": 4032,
+      "bytes": 332586,
+      "sha256": "2dadcda9daea091e25f6da71f228b4aeda9be32856e97b6e6d26ea129d2ccf47"
+    },
+    {
+      "file": "ambient_temperature.csv",
+      "table": "measurement_table",
+      "indicator_id": 9,
+      "metric_code": "ambient_temperature",
+      "records": 2016,
+      "bytes": 175949,
+      "sha256": "f6fecd2b58b18999eec37c15e01a66e182d5dc2cc37a1c228cd83377d18b4ea2"
+    }
+  ],
+  "notes": [
+    "Independent artificial threshold test windows; not physiological predictions or real NASA data.",
+    "Radiation has no lower alarm. Ambient temperature has no configured alarms.",
+    "All UTC timestamps are shifted equally when imported with --align-now."
+  ]
+}

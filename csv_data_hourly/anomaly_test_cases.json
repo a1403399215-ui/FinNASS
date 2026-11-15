@@ -1,0 +1,148 @@
+{
+  "threshold_reference": "Current project defaults, not medical standards",
+  "stats": [
+    {
+      "metric": "heart_rate",
+      "records": 4032,
+      "low": 40,
+      "high": 150,
+      "below": 672,
+      "above": 672,
+      "below_last24": 96,
+      "above_last24": 96
+    },
+    {
+      "metric": "oxygen_concentration",
+      "records": 2016,
+      "low": 20.064,
+      "high": 21.736,
+      "below": 336,
+      "above": 336,
+      "below_last24": 48,
+      "above_last24": 48
+    },
+    {
+      "metric": "radiation_dose_rate",
+      "records": 4032,
+      "low": null,
+      "high": 20.8,
+      "below": 0,
+      "above": 672,
+      "below_last24": 0,
+      "above_last24": 96
+    },
+    {
+      "metric": "systolic_bp",
+      "records": 336,
+      "low": 90,
+      "high": 140,
+      "below": 56,
+      "above": 56,
+      "below_last24": 8,
+      "above_last24": 8
+    },
+    {
+      "metric": "diastolic_bp",
+      "records": 336,
+      "low": 60,
+      "high": 90,
+      "below": 56,
+      "above": 56,
+      "below_last24": 8,
+      "above_last24": 8
+    },
+    {
+      "metric": "body_temperature",
+      "records": 4032,
+      "low": 35.5,
+      "high": 38.5,
+      "below": 672,
+      "above": 672,
+      "below_last24": 96,
+      "above_last24": 96
+    },
+    {
+      "metric": "humidity",
+      "records": 2016,
+      "low": 25,
+      "high": 70,
+      "below": 336,
+      "above": 336,
+      "below_last24": 48,
+      "above_last24": 48
+    },
+    {
+      "metric": "rmssd",
+      "records": 4032,
+      "low": 25,
+      "high": 150,
+      "below": 672,
+      "above": 672,
+      "below_last24": 96,
+      "above_last24": 96
+    },
+    {
+      "metric": "ambient_temperature",
+      "records": 2016,
+      "low": null,
+      "high": null,
+      "below": 0,
+      "above": 0,
+      "below_last24": 0,
+      "above_last24": 0
+    }
+  ],
+  "test_windows": {
+    "1": {
+      "low": 40,
+      "high": 150,
+      "highStart": 4,
+      "lowStart": 15
+    },
+    "2": {
+      "low": 20.064,
+      "high": 21.736,
+      "highStart": 8,
+      "lowStart": 16
+    },
+    "3": {
+      "low": null,
+      "high": 20.8,
+      "highStart": 4
+    },
+    "4": {
+      "low": 90,
+      "high": 140,
+      "highStart": 5,
+      "lowStart": 14
+    },
+    "5": {
+      "low": 60,
+      "high": 90,
+      "highStart": 5,
+      "lowStart": 14
+    },
+    "6": {
+      "low": 35.5,
+      "high": 38.5,
+      "highStart": 6,
+      "lowStart": 12
+    },
+    "7": {
+      "low": 25,
+      "high": 70,
+      "highStart": 7,
+      "lowStart": 18
+    },
+    "8": {
+      "low": 25,
+      "high": 150,
+      "highStart": 3,
+      "lowStart": 19
+    },
+    "9": {
+      "low": null,
+      "high": null
+    }
+  }
+}
