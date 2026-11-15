@@ -1,0 +1,10 @@
+﻿indicator_id,indicator_code,display_name,unit,value_type
+1,heart_rate,Heart rate,BPM,INT
+2,oxygen_concentration,Oxygen concentration,%,FLOAT
+3,radiation_dose_rate,Radiation dose rate,µSv/h,FLOAT
+4,systolic_bp,Systolic blood pressure,mmHg,INT
+5,diastolic_bp,Diastolic blood pressure,mmHg,INT
+6,body_temperature,Body temperature,°C,FLOAT
+7,humidity,Relative humidity,%,INT
+8,rmssd,Heart rate variability,ms,FLOAT
+9,ambient_temperature,Ambient temperature,°C,FLOAT

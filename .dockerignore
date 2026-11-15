@@ -1,0 +1,15 @@
+**
+!requirements.txt
+!Dockerfile
+!app.py
+!dashboard_api.py
+!demo_clock.py
+!wsgi.py
+!gunicorn.conf.py
+!static/
+!static/**
+!csv_data_hourly/
+!csv_data_hourly/data/
+!csv_data_hourly/data/*.csv
+!csv_data_hourly/manifest.json
+!csv_data_hourly/import_csv.py

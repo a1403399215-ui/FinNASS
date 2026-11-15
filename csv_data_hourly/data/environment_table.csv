@@ -1,0 +1,4 @@
+﻿environment_id,environment_name,location,gravity_condition,protection,is_isolated,is_confined,description
+1,Cabin routine,Spacecraft cabin,Microgravity,Pressurized cabin,0,1,Synthetic routine cabin context
+2,EVA,Outside spacecraft,Microgravity,Spacesuit,0,0,Synthetic scheduled EVA context
+3,Cabin isolation session,Separate cabin compartment,Microgravity,Pressurized cabin,1,1,Synthetic isolation session inside the same spacecraft; not a new sensor metric
